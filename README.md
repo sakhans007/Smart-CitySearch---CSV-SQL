@@ -10,7 +10,7 @@ After performing this lab students will be able to understand:
     - Smart Searching
     - File Handling
     
-## Tools/Software Requirement
+## Tools / Software Requirement
     - Preferred Programming Language: Java
     - Any IDE
     - Database(Preferably MySQL)
@@ -21,11 +21,12 @@ Latitudes are values in the range [-90, 90]. Longitudes are values in the range 
 The user can provide either lat/long or a city name (reverse search the lat/long), which will be utilized to look for a certain number (based on user input) of nearby cities. Remember, since the earth is not flat, you cannot apply simple arithmetic operations to find out the nearby cities, instead use the “The Great Circle Distance Formula” to find out the nearby lat/long. A short sample SQL to do the same is as follows: 
 
 ## Distance Formula:
-
+```
 DEGREES(ACOS(COS(RADIANS(lat1)) * COS(RADIANS(lat2)) *
              COS(RADIANS(long1) - RADIANS(long2)) +
              SIN(RADIANS(lat1)) * SIN(RADIANS(lat2))))
-           
+```
+
 This formula in its current form might not work with Java so you are encouraged to do some research on the internet to find out how to do this task.
 Lab Task 
 Your task will be to implement the following:
