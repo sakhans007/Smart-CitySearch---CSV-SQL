@@ -1,4 +1,4 @@
-# Smart-CitySearch---CSV-SQL
+# Smart City Search
 ## Introduction
 
 The project will create an application to populate a database from the provided Geo City Lite CSV file and allow the users to search for cities near a particular lat/long or another city. The application will start by loading the data from the csv file into the database, if it has not yet been loaded. Then the application allow the user to enter either lat/long or a city name. For lat/long it simply apply the nearby search to locate cities near the lat/long from the DB. In case of city name, it uses reverse search in the db to find out the lat/long for that city, before applying the same nearby search algorithm. 
